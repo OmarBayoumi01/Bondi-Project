@@ -1,0 +1,127 @@
+:root {
+  --dark-color: #19283f;
+  --green-color: #33d1cc;
+  --yellow-color: #ffc400;
+  --section-color: #eff7fa;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.main-btn {
+  background-color: #ff3150;
+  color: var(--yellow-color);
+}
+.main-btn:hover {
+  color: var(--yellow-color);
+}
+
+.main-title::after {
+  content: "";
+  width: 120px;
+  height: 2px;
+  background-color: var(--green-color);
+  position: absolute;
+  bottom: -20px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+/* Start Nav  */
+.navbar {
+  background-color: var(--dark-color);
+}
+.navbar .navbar-nav .nav-link {
+  color: #3d8bfd;
+}
+
+.navbar .navbar-nav .nav-link.active,
+.navbar .navbar-nav .nav-link:hover {
+  color: var(--green-color);
+}
+
+.search {
+  color: white;
+  border-left: 1px solid var(--green-color);
+}
+/* End Nav  */
+
+/* Start Landing */
+.landing {
+  background-color: var(--dark-color);
+  min-height: calc(50vh - 72px);
+}
+
+/* End Landing */
+
+/* start featucres */
+
+.Features .icon-holder {
+  height: 200px;
+}
+
+.Features .icon-holder i {
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.Features .icon-holder .number {
+  font-size: 12rem;
+  color: var(--section-color);
+}
+.Features .icon-holder .icon {
+  color: var(--green-color);
+}
+
+.Features .feat h4 {
+  color: var(--yellow-color);
+}
+/* end featucres */
+
+/* work */
+.work {
+  background-color: #eff7fa;
+}
+
+.work ul .active {
+  background-color: var(--green-color);
+}
+
+.work ul li {
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
+
+.work .box {
+  padding: 5px;
+  overflow: hidden;
+  position: relative;
+}
+/* work */
+
+.stuff .description {
+  max-width: 500px;
+}
+/* end work  */
+
+/* team */
+
+.team {
+  background-color: var(--section-color);
+}
+
+.team .h2 {
+  color: var(--yellow-color);
+}
+
+.team .row .box h4 {
+  background-color: var(--green-color);
+}
+
+.project {
+  background-color: var(--dark-color);
+}
+
+footer {
+  background-color: var(--dark-color);
+}
